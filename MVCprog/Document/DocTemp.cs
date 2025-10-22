@@ -18,6 +18,7 @@ namespace MVCprog.Data
 
         public static List<Document> GetDocuments(int claimId)
         {
+            // Returns all documents where the ClaimId matches the provided one
             return _documents.Where(d => d.ClaimId == claimId).ToList();
         }
     }
