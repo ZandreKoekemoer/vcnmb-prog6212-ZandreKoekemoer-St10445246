@@ -26,12 +26,13 @@ namespace MVCprog.Controllers
         [HttpPost]
         public IActionResult SubmitClaim(Claim claim, IFormFile supportingFile)
         {
+        //If the user has not uploaded a document,program returns an error msg syaing he has to upload a document
             if (supportingFile == null || supportingFile.Length <= 0)
             {
                 ViewBag.Error = "You must upload a document.";
                 return View(claim);
             }
-
+            //If user leaves out a field,program returns an erro
             if (!ModelState.IsValid)
             {
                 ViewBag.Error = "Please fill in all required fields.";
@@ -44,6 +45,7 @@ namespace MVCprog.Controllers
 
             try
             {
+            //Restriction what the user can upload
                 var allowedExtensions = new[] { ".pdf", ".docx", ".xlsx" };
                 var extension = Path.GetExtension(supportingFile.FileName).ToLower();
 
