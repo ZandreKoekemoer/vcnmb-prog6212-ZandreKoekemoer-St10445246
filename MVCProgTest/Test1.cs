@@ -57,6 +57,13 @@ namespace MVCProgTest
             var total = claim.TotalAmount;
             Assert.AreEqual(1000, total);
         }
+        [TestMethod]
+        public void DefaultStatusTest()
+        {
+            var claim = new Claim { LecturerId = 3, HoursWorked = 2, HourlyRate = 100 };
+            var status = claim.Status;
+            Assert.AreEqual("Pending", status);
+        }
     }
 }
 /*
