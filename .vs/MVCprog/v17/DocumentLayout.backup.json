@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CA4B58-7B40-44B8-9E38-2FB253614D7A}|MVCProgTest\\MVCProgTest.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprogtest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CA4B58-7B40-44B8-9E38-2FB253614D7A}|MVCProgTest\\MVCProgTest.csproj|solutionrelative:mvcprogtest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\views\\lecturer\\trackclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\views\\lecturer\\trackclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\views\\lecturer\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\views\\lecturer\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\views\\lecturer\\myclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\views\\lecturer\\myclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\claims\\claimtemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\claims\\claimtemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\document\\doctemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\document\\doctemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\views\\coordinator\\verifyclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\views\\coordinator\\verifyclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|c:\\users\\zandr\\downloads\\mvcprog\\mvcprog\\mvcprog\\views\\manager\\finalapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93EA1E14-96D6-4A2B-B7CA-3C58343A4D46}|MVCprog\\MVCprog.csproj|solutionrelative:mvcprog\\views\\manager\\finalapproval.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Lecturer\\MyClaims.cshtml",
+              "RelativeDocumentMoniker": "MVCprog\\Views\\Lecturer\\MyClaims.cshtml",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Lecturer\\MyClaims.cshtml",
+              "RelativeToolTip": "MVCprog\\Views\\Lecturer\\MyClaims.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T13:20:47.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VerifyClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Coordinator\\VerifyClaims.cshtml",
+              "RelativeDocumentMoniker": "MVCprog\\Views\\Coordinator\\VerifyClaims.cshtml",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Coordinator\\VerifyClaims.cshtml",
+              "RelativeToolTip": "MVCprog\\Views\\Coordinator\\VerifyClaims.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T13:20:30.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClaimTemp.cs",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Claims\\ClaimTemp.cs",
+              "RelativeDocumentMoniker": "MVCprog\\Claims\\ClaimTemp.cs",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Claims\\ClaimTemp.cs",
+              "RelativeToolTip": "MVCprog\\Claims\\ClaimTemp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:19:49.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "MVCprog\\Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "MVCprog\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:19:20.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocTemp.cs",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Document\\DocTemp.cs",
+              "RelativeDocumentMoniker": "MVCprog\\Document\\DocTemp.cs",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Document\\DocTemp.cs",
+              "RelativeToolTip": "MVCprog\\Document\\DocTemp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:19:00.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "MVCprog\\Models\\Document.cs",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Models\\Document.cs",
+              "RelativeToolTip": "MVCprog\\Models\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:18:44.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "MVCprog\\Controllers\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "MVCprog\\Controllers\\LecturerController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAADwv20AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:01:28.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FinalApproval.cshtml",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Manager\\FinalApproval.cshtml",
+              "RelativeDocumentMoniker": "MVCprog\\Views\\Manager\\FinalApproval.cshtml",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Manager\\FinalApproval.cshtml",
+              "RelativeToolTip": "MVCprog\\Views\\Manager\\FinalApproval.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T13:21:15.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCProgTest\\Test1.cs",
+              "RelativeDocumentMoniker": "MVCProgTest\\Test1.cs",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCProgTest\\Test1.cs",
+              "RelativeToolTip": "MVCProgTest\\Test1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:17:40.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrackClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Lecturer\\TrackClaim.cshtml",
+              "RelativeDocumentMoniker": "MVCprog\\Views\\Lecturer\\TrackClaim.cshtml",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Lecturer\\TrackClaim.cshtml",
+              "RelativeToolTip": "MVCprog\\Views\\Lecturer\\TrackClaim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T13:21:09.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCprog\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCprog\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T16:16:52.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "MVCprog\\Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Models\\Claim.cs",
+              "RelativeToolTip": "MVCprog\\Models\\Claim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:18:32.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubmitClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Lecturer\\SubmitClaim.cshtml",
+              "RelativeDocumentMoniker": "MVCprog\\Views\\Lecturer\\SubmitClaim.cshtml",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Views\\Lecturer\\SubmitClaim.cshtml",
+              "RelativeToolTip": "MVCprog\\Views\\Lecturer\\SubmitClaim.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T12:03:45.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoordinatorController.cs",
+              "DocumentMoniker": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Controllers\\CoordinatorController.cs",
+              "RelativeDocumentMoniker": "MVCprog\\Controllers\\CoordinatorController.cs",
+              "ToolTip": "C:\\Users\\zandr\\Downloads\\MVCprog\\MVCprog\\MVCprog\\Controllers\\CoordinatorController.cs",
+              "RelativeToolTip": "MVCprog\\Controllers\\CoordinatorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T14:43:58.374Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

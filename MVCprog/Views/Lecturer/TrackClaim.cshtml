@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MVCprog.Models.Claim>
+
+@{
+    Layout = "_Layout";
+}
+
+<h2>Track My Claims</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Description</th>
+            <th>Date Submitted</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.ClaimId</td>
+                <td>@claim.Description</td>
+                <td>@claim.DateSubmitted.ToShortDateString()</td>
+                <td>
+                    @if (claim.Status.Contains("Pending"))
+                    {
+                        <span class="badge bg-warning text-dark">@claim.Status</span>
+                    }
+                    else if (claim.Status.Contains("Approved"))
+                    {
+                        <span class="badge bg-success">@claim.Status</span>
+                    }
+                    else if (claim.Status.Contains("Rejected"))
+                    {
+                        <span class="badge bg-danger">@claim.Status</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">@claim.Status</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

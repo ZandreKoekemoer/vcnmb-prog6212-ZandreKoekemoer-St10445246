@@ -1,0 +1,58 @@
+﻿@model List<MVCprog.Models.Claim>
+@{
+    Layout = "_Layout";
+}
+
+<h2>My Claims</h2>
+<a href="@Url.Action("SubmitClaim")" class="btn btn-primary mb-3">Create New Claim</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Total Amount</th>
+            <th>Date Submitted</th>
+            <th>Status</th>
+            <th>Documents</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.Description</td>
+                <td>@claim.TotalAmount</td>
+                <td>@claim.DateSubmitted.ToShortDateString()</td>
+                <td>
+                    @if (claim.Status.Contains("Pending"))
+                    {
+                        <span class="badge bg-warning text-dark">@claim.Status</span>
+                    }
+                    else if (claim.Status.Contains("Approved"))
+                    {
+                        <span class="badge bg-success">@claim.Status</span>
+                    }
+                    else if (claim.Status.Contains("Rejected"))
+                    {
+                        <span class="badge bg-danger">@claim.Status</span>
+                    }
+                </td>
+                <td>
+                    @if (claim.Documents != null && claim.Documents.Any())
+                    {
+                        <ul>
+                            @foreach (var doc in claim.Documents)
+                            {
+                                <li><a href="@doc.FilePath" target="_blank">@doc.FileName</a></li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <small>No documents uploaded</small>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Contract Claim System Prototype</title>
+    <!--
+      Reference: Bootstrap. 2023. Bootstrap 5 Documentation
+      According to Bootstrap (2023), the grid system and responsive classes help structure layouts across devices.
+      I used this reference to give my code a better looking design and improve the overall appearance.
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand px-3" href="/">CMCS</a>
+        <div class="navbar-nav">
+            <a class="nav-link" href="/Lecturer/MyClaims">Lecturer</a>
+            <a class="nav-link" href="/Coordinator/VerifyClaims">Coordinator</a>
+            <a class="nav-link" href="/Manager/FinalApproval">Manager</a>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+</body>
+</html>
+
+<!--
+
+Bootstrap. 2023. Bootstrap 5 Documentation.[online]
+Available at:
+<https: //getbootstrap.com/docs/5.3/getting-started/introduction />
+[Accessed 16 September 2025].
+
+ -->

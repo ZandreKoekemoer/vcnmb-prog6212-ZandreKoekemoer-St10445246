@@ -1,0 +1,75 @@
+﻿@model List<MVCprog.Models.Claim>
+@{
+    Layout = "_Layout";
+}
+
+<h2>Coordinator: Verify Claims</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Description</th>
+            <th>Hours Worked</th>
+            <th>Hourly Rate</th>
+            <th>Total Amount</th>
+            <th>Documents</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.ClaimId</td>
+                <td>@claim.Description</td>
+                <td>@claim.HoursWorked</td>
+                <td>@claim.HourlyRate</td>
+                <td>@claim.TotalAmount</td>
+
+                <td>
+                    @if (claim.Documents != null && claim.Documents.Any())
+                    {
+                        <ul>
+                            @foreach (var doc in claim.Documents)
+                            {
+                                <li><a href="@doc.FilePath" target="_blank">@doc.FileName</a></li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <small>No documents uploaded</small>
+                    }
+                </td>
+
+                <td>
+                    @if (claim.Status.Contains("Pending"))
+                    {
+                        <span class="badge bg-warning text-dark">@claim.Status</span>
+                    }
+                    else if (claim.Status.Contains("Approved"))
+                    {
+                        <span class="badge bg-success">@claim.Status</span>
+                    }
+                    else if (claim.Status.Contains("Rejected"))
+                    {
+                        <span class="badge bg-danger">@claim.Status</span>
+                    }
+                </td>
+
+                <td>
+                    <form asp-action="Approve" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@claim.ClaimId" />
+                        <button type="submit" class="btn btn-success btn-sm">Approve</button>
+                    </form>
+                    <form asp-action="Reject" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@claim.ClaimId" />
+                        <button type="submit" class="btn btn-danger btn-sm">Reject</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
