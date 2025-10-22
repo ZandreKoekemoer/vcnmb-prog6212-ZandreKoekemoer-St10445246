@@ -8,6 +8,7 @@ namespace MVCprog.Controllers
     {
         public IActionResult FinalApproval()
         {
+        // Retrieves all claims that have already been approved or rejected by the Coordinator
             var claims = ClaimTemp.GetAllClaims().Where(c => c.Status == "Approved by Coordinator" || c.Status == "Rejected by Coordinator").ToList();
             return View(claims);
         }
@@ -15,6 +16,7 @@ namespace MVCprog.Controllers
         [HttpPost]
         public IActionResult FinalApprove(int id)
         {
+        // Updates the selected claim’s status to show that the Manager has approved it
             ClaimTemp.UpdateClaimStatus(id, "Approved by Manager");
             return RedirectToAction("FinalApproval");
         }
@@ -22,6 +24,7 @@ namespace MVCprog.Controllers
         [HttpPost]
         public IActionResult Reject(int id)
         {
+        // Updates the selected claim’s status to show that the Manager has arejected it
             ClaimTemp.UpdateClaimStatus(id, "Rejected by Manager");
             return RedirectToAction("FinalApproval");
         }
