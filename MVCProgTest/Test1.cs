@@ -4,6 +4,11 @@ using MVCprog.Data;
 using MVCprog.Models;
 using System.Linq;
 
+
+// Reference: Microsoft. Creating Unit Tests for ASP.NET MVC Applications (C#)
+// According to Microsoft (n.d.), unit testing in ASP.NET MVC allows developers to test controllers, actions, and views to ensure they behave correctly in isolation. 
+// I used this reference to structure my unit tests for claims, documents, and total amount calculations.
+
 namespace MVCProgTest
 {
     [TestClass]
@@ -54,3 +59,9 @@ namespace MVCProgTest
         }
     }
 }
+/*
+Microsoft. n.d. Creating Unit Tests for ASP.NET MVC Applications (Version 2.0)[Source code].  
+Available at: <https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs>  
+[Accessed 21 October 2025].
+
+*/
