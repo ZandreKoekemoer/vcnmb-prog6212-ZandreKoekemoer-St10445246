@@ -7,6 +7,8 @@ namespace MVCprog.Data
         // Reference: Tutorialsteacher C# List<T> Collection
         // According to Tutorialsteacher (2025), List<T> is a generic collection used to store strongly typed objects in memory.
         // I used this reference to implement temporary in memory storage for claims in my program.
+        
+        // Stores all claim records temporarily in memory
         private static List<Claim> _claims = new List<Claim>();
         private static int _nextId = 1;
 
@@ -20,6 +22,7 @@ namespace MVCprog.Data
             var claims = _claims.ToList();
             foreach (var claim in claims)
             {
+                // Gets all documents associated with the claim
                 claim.Documents = DocTemp.GetDocuments(claim.ClaimId);
             }
             return claims;
@@ -35,6 +38,7 @@ namespace MVCprog.Data
 
         public static void UpdateClaimStatus(int id, string status)
         {
+             // Finds the claim with the matching ID and if it is found it will update if the status is approved or rejected
             var claim = _claims.FirstOrDefault(c => c.ClaimId == id);
             if (claim != null)
             {
